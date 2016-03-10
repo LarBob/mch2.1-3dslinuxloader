@@ -1,21 +1,16 @@
-# Nintendo 3DS Linux Loader using Memchunkhax II
+# Nintendo 3DS Linux Loader using svchax/memchunkhax2.1
+
+## NOTICE
+
+This is based on xerpi's Linux Loader and was a very quick and dirty port to svchax/mch2.1. I didn't clean it up at all before publishing. Most credit to him. 
 
 ## What this is
 
-Linux Loader based on [SuperUserLib3DS](https://github.com/delebile/SuperUserLib3DS)
+Linux Loader based on [mch2.1](https://github.com/aliaspider/svchax)
 
-## Stability
+## Usage
 
-The library itself should not cause any brick, but i do not own any responsability of the use anyone makes of it.
-
-The bootrate of the exploits is right now pretty reliable, but the app fails to return to the Homebrew Launcher.
-
-## Exploits Used
-
-Target | Exploit name | Support | Credits
------------- | ------------- | ------------- | -------------
-ARM11 Kernel | Memchunkhax II | All 3DSes Ver. <= 10.3 | Reproduction of the exploit presented [here](https://media.ccc.de/v/32c3-7240-console_hacking). Credit goes so to derrek, smea and plutoo, while this implementation has been realized with the help of Steveice10, julian20, MassExplosion, TuxSH and motezazer.
-
-
+Build, convert elf to cia, install cia, run.
+Works on 10.4 - 10.6.
 
 
