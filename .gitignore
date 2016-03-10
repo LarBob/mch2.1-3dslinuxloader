@@ -1,0 +1,9 @@
+.idea
+CMakeLists.txt
+
+build
+
+*.elf
+*.3dsx
+*.smdh
+*.bat
